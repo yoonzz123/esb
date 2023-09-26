@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/var/www/esb/backend/logs/error/.38c5003d2d09239609d1039071fac8ea988edec7-audit.json",
+    "files": [
+        {
+            "date": 1695645653411,
+            "name": "/var/www/esb/backend/logs/error/2023-09-25.error.log",
+            "hash": "e886d6741beacc266aee975d27382d1dfccbc79f207624ac5a64eafda53a9ad7"
+        }
+    ],
+    "hashType": "sha256"
+}
