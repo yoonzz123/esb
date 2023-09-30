@@ -25,12 +25,4 @@ app
     process.exit(1);
   });
 
-process.on(`SIGINT`, function () {
-  isDisableKeepAlive = true;
-  app.close(function () {
-    console.log(`server closed`);
-    process.exit(0);
-  });
-});
-
 //export default { server };
