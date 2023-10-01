@@ -19,6 +19,11 @@
             "date": 1696056184544,
             "name": "/Users/yunbyeong-u/node/esb/backend/logs/error/2023-09-30.error.log",
             "hash": "1d6eee388a80ac6eacf217f94c32c5175d8da70fd7472f0f2828d971c1ce5e87"
+        },
+        {
+            "date": 1696131422230,
+            "name": "/Users/yunbyeong-u/node/esb/backend/logs/error/2023-10-01.error.log",
+            "hash": "1129bf45b2e8dfdb9577c1732fd694c9da8acba16ad0fb18910afb3e84833628"
         }
     ],
     "hashType": "sha256"

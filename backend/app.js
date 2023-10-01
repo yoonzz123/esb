@@ -16,7 +16,6 @@ app.get("/", (req, res) => {
 
 app
   .listen(port, () => {
-    process.send(`ready`);
     logger.info(`
       🛡️  Server listening on port: ${port} 🛡️`);
   })
