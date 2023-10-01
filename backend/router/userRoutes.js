@@ -1,11 +1,14 @@
 import express from "express";
-import { getAllUsers, getUser } from "../controller/userController.js";
+import userController from "../controller/userController.js";
+import logger from "../loaders/logger.js";
 
 const userRouter = express.Router();
 
-userRouter.get("/", (req, res) => {
-  res.send(getAllUsers);
+userRouter.get("/", userController.getAllUsers);
+//userRouter.get("/user/:id", getUser);
+
+userRouter.get("/test", (req, res) => {
+  console.log("asjkldfjlkasdflasdfa");
 });
-userRouter.get("/user/:id", getUser);
 
 export default userRouter;

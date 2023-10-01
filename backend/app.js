@@ -5,6 +5,8 @@ import logger from "./loaders/logger.js";
 const app = express();
 const port = 80;
 
+app.use(express.json());
+
 // router
 import apiRouter from "./router/userRoutes.js";
 
