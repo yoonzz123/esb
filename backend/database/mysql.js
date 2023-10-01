@@ -2,15 +2,15 @@ import mysql from "mysql2/promise";
 import config from "../config/index.js";
 import logger from "../loaders/logger.js";
 
-const db_config = config.mysql_config;
+const DB_MYSQL = config.mysql;
 
 const pool = mysql.createPool({
-  host: "localhost", //db_config.HOST,
-  user: "root", //db_config.USER,
-  port: "3306",
-  password: "12345678", //db_config.PASSWORD,
-  database: "esb", //db_config.DB,
-  connectTimeout: 5000,
+  host: DB_MYSQL.HOST,
+  user: DB_MYSQL.USER,
+  password: DB_MYSQL.PASSWORD,
+  port: DB_MYSQL.PORT,
+  database: DB_MYSQL.DB,
+  connectTimeout: 2000,
   connectionLimit: 30, //default 10
 });
 let conn = null;
