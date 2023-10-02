@@ -1,5 +1,6 @@
 backend/node_modules/
 backend/ecosystem.config.cjs
 backend/logs/
+backend/public/
 
-backend/node_modules/
+frontend/node_modules/

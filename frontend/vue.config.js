@@ -3,19 +3,19 @@
 //   transpileDependencies: true
 // })
 
-const { defineConfig } = require('@vue/cli-service');
-const path = require('path');
+const { defineConfig } = require("@vue/cli-service");
+const path = require("path");
 
 module.exports = defineConfig({
-  outputDir: path.resolve(__dirname, '../backend/public/'),
+  outputDir: path.resolve(__dirname, "../backend/public/"),
   transpileDependencies: true,
   devServer: {
     proxy: {
-      '/api': {
-        target: 'https://127.0.0.1:3000/api',
+      "/api": {
+        target: "https:localhost/api",
         changeOrigin: true,
         pathRewrite: {
-          '^/api': '',
+          "^/api": "",
         },
       },
     },
