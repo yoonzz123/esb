@@ -9,6 +9,7 @@ const path = require("path");
 module.exports = defineConfig({
   outputDir: path.resolve(__dirname, "../backend/public/"),
   transpileDependencies: true,
+
   devServer: {
     proxy: {
       "/api": {
@@ -20,4 +21,10 @@ module.exports = defineConfig({
       },
     },
   },
+
+  pluginOptions: {
+    vuetify: {
+			// https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vuetify-loader
+		}
+  }
 });
