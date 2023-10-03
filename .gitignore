@@ -1,5 +1,5 @@
 backend/node_modules/
-backend/ecosystem.config.cjs
+#backend/ecosystem.config.cjs
 backend/logs/
 
 frontend/node_modules/
