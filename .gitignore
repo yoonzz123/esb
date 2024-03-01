@@ -1,5 +1,7 @@
 backend/node_modules/
+backend/package-lock.json
 #backend/ecosystem.config.cjs
 backend/logs/
 
 frontend/node_modules/
+frontend/package-lock.json
