@@ -42,7 +42,24 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => {
+    return {
+      select: "select",
+    };
+  },
+  method: {
+    validate: () => {
+      console.log(`@click="validate">`);
+    },
+    reset: () => {
+      console.log(`@click="reset">`);
+    },
+    resetValidation: () => {
+      console.log(`@click="resetValidation">`);
+    },
+  },
+};
 </script>
 
 <style></style>

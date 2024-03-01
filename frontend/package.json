@@ -12,6 +12,7 @@
     "axios": "^1.5.1",
     "core-js": "^3.8.3",
     "roboto-fontface": "*",
+    "vexflow": "^4.2.3",
     "vue": "^3.2.26",
     "vue-router": "^4.0.3",
     "vuetify": "^3.0.0-beta.0",
