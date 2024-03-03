@@ -11,7 +11,7 @@ import { Factory } from "vexflow";
 export default {
   data: () => {
     return {
-      title: "Vex Flow Sample Code",
+      title: "Vex Flow Sample Page",
     };
   },
   mounted() {
