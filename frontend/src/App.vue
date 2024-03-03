@@ -8,7 +8,8 @@
         <v-list-item
           prepend-avatar="https://randomuser.me/api/portraits/men/78.jpg"
           title="John Leider"
-        ></v-list-item>
+        ></v-list-item
+        >x
 
         <v-divider></v-divider>
 
@@ -17,11 +18,19 @@
             prepend-icon="mdi-view-dashboard"
             title="Home"
             value="home"
+            to="/home"
           ></v-list-item>
           <v-list-item
             prepend-icon="mdi-forum"
-            title="About"
-            value="about"
+            title="Test"
+            value="test"
+            to="/test"
+          ></v-list-item>
+          <v-list-item
+            prepend-icon="mdi-forum"
+            title="VexFlow"
+            value="/vexFlow"
+            to="/vexFlow"
           ></v-list-item>
         </v-list>
       </v-navigation-drawer>

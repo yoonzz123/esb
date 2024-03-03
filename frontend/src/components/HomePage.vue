@@ -25,17 +25,11 @@
       ></v-checkbox>
 
       <div class="d-flex flex-column">
-        <v-btn color="success" class="mt-4" block @click="validate">
-          Validate
-        </v-btn>
+        <v-btn color="success" class="mt-4" block> Validate </v-btn>
 
-        <v-btn color="error" class="mt-4" block @click="reset">
-          Reset Form
-        </v-btn>
+        <v-btn color="error" class="mt-4" block> Reset Form </v-btn>
 
-        <v-btn color="warning" class="mt-4" block @click="resetValidation">
-          Reset Validation
-        </v-btn>
+        <v-btn color="warning" class="mt-4" block> Reset Validation </v-btn>
       </div>
     </v-form>
   </v-sheet>
@@ -48,17 +42,7 @@ export default {
       select: "select",
     };
   },
-  method: {
-    validate: () => {
-      console.log(`@click="validate">`);
-    },
-    reset: () => {
-      console.log(`@click="reset">`);
-    },
-    resetValidation: () => {
-      console.log(`@click="resetValidation">`);
-    },
-  },
+  method: {},
 };
 </script>
 
